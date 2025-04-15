@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Pericka Bloom Spa and Nail Salon</title>
+  <link rel="stylesheet" href="Pericka.css">
+</head>
+<body>
+  <header>
+    <div class="container header-container">
+      <h1>Pericka Bloom Spa and Nail Salon</h1>
+      <nav>
+        <ul>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#gallery">Gallery</a></li>
+          <li><a href="#about">About Us</a></li>
+          <li><a href="#booking">Book Now</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  
+  <section id="hero">
+    <div class="hero-content">
+      <h2>Your Destination for Ultimate Nail and Spa Experience</h2>
+      <p>Experience luxury, creativity, and relaxation at Pericka Bloom.</p>
+      <button id="bookNowBtn">Book an Appointment</button>
+    </div>
+  </section>
+  
+  <!-- Services Section -->
+  <section id="services" class="container">
+    <h2>Our Services</h2>
+    <div class="service-cards">
+      <!-- Combined Service Card: Basic Services -->
+      <div class="card">
+        <h3>Manicure &amp; Pedicure</h3>
+        <p>Manicure (Ksh 500) and Pedicure (Ksh 500): Get your hands and feet pampered with our signature treatments.</p>
+      </div>
+      <div class="card">
+        <h3>Gel Polish</h3>
+        <p>Gel Polish (Ksh 400): Simple, sleek, and durable for everyday wear.</p>
+      </div>
+      <!-- Enhanced Nail Services -->
+      <div class="card">
+        <h3>Builder Gel</h3>
+        <p>Builder Gel (Ksh 900): Ideal for added strength without compromising a natural look.</p>
+      </div>
+      <div class="card">
+        <h3>Ombre</h3>
+        <p>Ombre (Ksh 1,000): A subtle gradient that adds dimension and flair.</p>
+      </div>
+      <div class="card">
+        <h3>Chrome</h3>
+        <p>Chrome (Ksh 1,000): Perfect for a modern, metallic shine.</p>
+      </div>
+      <div class="card">
+        <h3>Gum Gel</h3>
+        <p>Gum Gel (Ksh 1,200): An innovative gel formula known for its flexibility and durability.</p>
+      </div>
+      <div class="card">
+        <h3>Gum Gel + Tips</h3>
+        <p>Gum Gel + Tips (Ksh 1,500): For added length with a sleek, glossy finish.</p>
+      </div>
+      <div class="card">
+        <h3>Overlays</h3>
+        <p>Overlays (Ksh 1,500): Strengthen your natural nails while keeping them chic and stylish.</p>
+      </div>
+      <div class="card">
+        <h3>Sculpting</h3>
+        <p>Sculpting (Ksh 1,500): Shape and extend your nails with a custom design.</p>
+      </div>
+      <div class="card">
+        <h3>Acrylic Monomer</h3>
+        <p>Acrylic Monomer (Ksh 2,000): High-quality product ensuring long-lasting acrylics.</p>
+      </div>
+      <!-- Additional Service: Nail Art -->
+      <div class="card">
+        <h3>Nail Art</h3>
+        <p>Express your style with our creative, custom nail art designs.</p>
+      </div>
+    </div>
+  </section>
+  
+  <section id="gallery" class="container">
+    <h2>Gallery</h2>
+    <div class="gallery-grid">
+      <img src="Bloom1.jpeg" alt="Nail design 1">
+      <img src="Bloom2.jpeg" alt="Nail design 2">
+      <img src="Bloom3.jpeg" alt="Nail design 3">
+      <img src="Bloom5.jpeg" alt="Nail design 4">
+    </div>
+  </section>
+  
+  <section id="about" class="container">
+    <h2>About Us</h2>
+    <p>
+      At Pericka Bloom Spa and Nail Salon, we are passionate about delivering top-notch nail services in a warm and luxurious environment. Our professional team is dedicated to making you feel refreshed, confident, and beautifully pampered.
+    </p>
+  </section>
+  
+  <section id="booking" class="container">
+    <h2>Book Your Appointment</h2>
+    <form id="bookingForm">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+      
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+      
+      <label for="service">Service:</label>
+      <select id="service" name="service" required>
+        <option value="">Select a service</option>
+        <option value="Manicure & Pedicure">Manicure & Pedicure</option>
+        <option value="Gel Polish">Gel Polish</option>
+        <option value="Builder Gel">Builder Gel</option>
+        <option value="Ombre">Ombre</option>
+        <option value="Chrome">Chrome</option>
+        <option value="Gum Gel">Gum Gel</option>
+        <option value="Gum Gel + Tips">Gum Gel + Tips</option>
+        <option value="Overlays">Overlays</option>
+        <option value="Sculpting">Sculpting</option>
+        <option value="Acrylic Monomer">Acrylic Monomer</option>
+        <option value="Nail Art">Nail Art</option>
+      </select>
+      
+      <label for="date">Preferred Date:</label>
+      <input type="date" id="date" name="date" required>
+      
+      <button type="submit">Submit</button>
+    </form>
+  </section>
+  
+  <section id="contact" class="container">
+    <h2>Contact Us</h2>
+    <p><strong>Location:</strong> Kahawa Wendani</p>
+    <p><strong>Phone:</strong> 0115 901713</p>
+    <p><strong>Email:</strong> info@perickabloom.com</p>
+  </section>
+  
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 Pericka Bloom Spa and Nail Salon. All rights reserved.</p>
+    </div>
+  </footer>
+  
+  <script src="Pericka.js"></script>
+</body>
+</html>
